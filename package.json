@@ -1,0 +1,31 @@
+{
+  "name": "email-image-assets",
+  "version": "1.0.0",
+  "description": "optimize and upload images to s3",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "glob": "^7.0.3",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-open": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-s3-upload": "^1.6.0",
+    "run-sequence": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "npm install",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TandemApp/email-image-assets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TandemApp/email-image-assets/issues"
+  },
+  "homepage": "https://github.com/TandemApp/email-image-assets#readme"
+}
