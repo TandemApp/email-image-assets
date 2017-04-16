@@ -1,4 +1,6 @@
 {
     "accessKeyId": "[ID]",
+    "S3BucketName": "[BUCKET_NAME]",
+    "S3URLPath": "[S3_URL_PATH]",
     "secretAccessKey": "[SECRET]"
 }
