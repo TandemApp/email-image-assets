@@ -12,7 +12,7 @@
     "disallowOperatorBeforeLineBreak": true,
     "disallowPaddingNewlinesInBlocks": {
         "open": false,
-        "close": true,
+        "close": false,
         "allExcept": ["conditionals"]
     },
     "disallowQuotedKeysInObjects": true,
@@ -46,7 +46,7 @@
     "requirePaddingNewLinesAfterUseStrict": true,
     "requirePaddingNewlinesInBlocks": {
         "open": true,
-        "close": false,
+        "close": true,
         "allExcept": ["conditionals"]
     },
     "requireParenthesesAroundArrowParam": true,
